@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> Project Tattoo </title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#banner">Home</a>
+				<li><a href="#PORQUE">PORQUE</a>
+				<li><a href="#TATTOO">TATTOO</a>
+				<li><a href="#HOMENAGEM">HOMENAGEM</a>
+				<li><a href="#Contatos">Contatos</a>
+			</ul>				
+		</nav>
+	</header>
+
+	<section id="banner" class="banner">
+		<img src="bannertatto.png">
+	</section>
+	
+	<section id="PORQUE" class="flexivel">
+		<div>
+	    <article class="borda0" data-anima="esquerda">
+			Sobre o Canal
+		</article>
+		</div>
+		<div>
+		<article class="borda0" data-anima="direita">
+			Sobre mim
+		</article>
+		</div>
+	</section>
+	
+	<section id="TATTOO" class="flexivel">
+		<article class="borda0 conteinerTattoo" data-anima="esquerda">
+			<img src="c1.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Tribal. Pode reprensentar uma posição social das pessoas da tribo, como militares que vão ganhando novas insígnias conforme os seus atos heroicos e de coragem.">
+			<img src="c2.jpg" class="mini" onclick="cliqueModal(this)" alt="Tatto Anjo. Pode representar sua relação mais proxima e profunda com Deus.">
+			<img src="c3.jpg" class="mini" onclick="cliqueModal(this)" alt="Tatto India com Leao. Pode representar o poder da conquista, garra, determinação.">
+			<img src="c4.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Aguia. Pode representar força e grandeza.">
+		</article>
+		<article class="borda0 conteinerTattoo" data-anima="centro">
+			<img src="c5.jpg" class="mini" onclick="cliqueModal(this)" alt="Tatto Olho e Bussola. Pode representar boa sorte e a direção para terra firme, ou terra dos vivos.">
+			<img src="c6.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Samurai e Tigre. Pode representar força, beleza, orgulho, ferocidade, etc.">
+			<img src="c7.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Leao. Pode representar poder, realeza, etc.">
+			<img src="c8.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Terço com Nossa Senhora. Pode representar esperança, ou até mesmo gratificação por uma promessa">
+		</article>
+		<article class="borda0 conteinerTattoo" data-anima="direita">
+			<img src="c9.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Zeus. Pode representar poder e fertilidade.">
+			<img src="c10.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo tigre. Pode representar força e poder.">
+			<img src="c11.jpg" class="mini" onclick="cliqueModal(this)" alt="Tatto Cruz. Pode representar fé e amor a Jesus Cristo.">
+			<img src="c12.jpg" class="mini" onclick="cliqueModal(this)" alt="Tattoo Asas de anjo. Pode representar uma relação com o meio espiritual.">
+		</article>	 
+	</section>
+	<section class="parallax p1">
+		<article>
+			Sobre<br>Sobre<br>Sobre<br>Sobre<br>Sobre
+		</article>
+	</section>
+	
+	<section id="HOMENAGEM" class="flexivel">
+		<article class="borda0" data-anima="esquerda">
+			Imagem 
+		</article>
+		<article class="borda0" data-anima="direita">
+			Link direto para o canal
+		</article>
+	</section>
+
+	<section class="parallax p1">
+		<article>
+			CFB Cursos<br>CFB Cursos<br>CFB Cursos<br>CFB Cursos<br>CFB Cursos
+		</article>
+	</section>
+	
+	<section id="Contatos" class="flexivel">
+		<article class="borda0" data-anima="esquerda">
+			Contato Esquerda
+		</article>
+		<article class="borda0" data-anima="centro">
+			Contato Centro
+		</article>
+		<article class="borda0" data-anima="direita">
+			Contato Direita
+		</article>
+	</section>
+	
+	<footer>
+		
+	</footer>
+	<div id="janelaModal" class="janelaModal escondeJanelaModal">
+		<span id="btnFechar" class="fecharModal">x</span>
+		<img id="imgModal" class="imgModal">
+		<div id="txtModal" class="txtModal"></div>
+		
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+	
+
+</body>
+</html>
